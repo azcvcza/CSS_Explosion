@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body,
+    canvas {
+        margin: auto 0;
+        padding: 0;
+    }
+    
+    body {
+        height: 100%;
+    }
+    
+    #control {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        background: white;
+        opacity: .3;
+        color: lightgray;
+    }
+    
+    canvas {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body>
+    <div id="control">
+        <button id="go">go</button>
+    </div>
+    <canvas id="gl-canvas"></canvas>
+</body>
+<script src="particles.min.js"></script>
+
+</html>
